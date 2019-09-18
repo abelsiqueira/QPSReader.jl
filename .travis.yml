@@ -19,6 +19,7 @@ notifications:
 
 branches:
   only:
+    - add_tests
     - master
     - /^v\d+\.\d+(\.\d+)?(-\S*)?$/ # tags
 
